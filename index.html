@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="output.css" />
+    <title>Commune</title>
+  </head>
+  <body
+    class="bg-slate-50 p-10 sm:container sm:mx-auto sm:p-5 min-h-screen font-nunito-sans"
+  >
+    <nav class="mb-5 flex justify-between items-center">
+      <img src="./Assets/Logo.svg" alt="Commune Logo" />
+      <img
+        src="./Assets/Hamburger Menu.svg"
+        alt="Hamburger Menu"
+        class="cursor-pointer sm:hidden"
+      />
+      <div class="hidden sm:flex">
+        <ul class="flex justify-between items-center sm:gap-10 2xl:gap-20">
+          <li>
+            <a href="#" class="text-indigo-900 font-semibold">Features</a>
+          </li>
+          <li>
+            <a href="#" class="text-indigo-900 font-semibold">Affiliates</a>
+          </li>
+          <li><a href="#" class="text-indigo-900 font-semibold">Pricing</a></li>
+          <li>
+            <a href="#" class="text-indigo-900 font-semibold">Communities</a>
+          </li>
+        </ul>
+        <button
+          class="ml-10 sm:px-10 sm:py-3 md:p-3 bg-indigo-900 text-white rounded-md hover:bg-indigo-800"
+        >
+          Join Waitlist
+        </button>
+      </div>
+    </nav>
+    <main class="mt-10 sm:flex justify-between items-center 2xl:mt-28">
+      <div class="flex flex-col gap-3 sm:w-2/4 md:gap-10 2xl:gap-10">
+        <p
+          class="bg-indigo-900 text-slate-300 text-lg px-5 py-3 text-center rounded-full sm:text-left sm:w-fit sm:text-sm md:p-2 md:text-sm"
+        >
+          We are now allowing early-access for users.
+          <span class="underline cursor-pointer">Learn More.</span>
+        </p>
+        <div class="flex flex-col gap-3">
+          <h1
+            class="text-5xl text-center font-bold text-indigo-900 leading-snug sm:text-left sm:text-4xl md:text-4xl 2xl:text-5xl"
+          >
+            Build a highly engaged community with no effort.
+          </h1>
+          <p class="text-center text-lg sm:text-left">
+            Commune offers the tools you need to build a highly engaged
+            community with little to no effort. Simply setup your Commune
+            workspace, and manage everything from members to content from one
+            central dashboard.
+          </p>
+          <div class="flex flex-col items-start gap-3 sm:flex-row">
+            <input
+              type="text"
+              placeholder="Enter your e-mail address"
+              class="p-3 w-full border border-solid border-gray-200 sm:w-96"
+            />
+            <button
+              class="bg-indigo-900 text-white w-full p-3 rounded-md sm:w-32 md:p-3 md:w-48 hover:bg-indigo-800"
+            >
+              Join Waitlist
+            </button>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./Assets/Illustration.png"
+        alt="Hero Illustration"
+        class="hidden sm:inline-block h-96 w-auto"
+      />
+    </main>
+    <footer class="mt-5 2xl:mt-16">
+      <p class="font-semibold text-indigo-900 text-lg">
+        Used by these companies:
+      </p>
+      <div class="mt-3 flex gap-5 flex-wrap">
+        <img src="./Assets/Atlassian Icon.svg" alt="Atlassian" />
+        <img src="./Assets/Behance Icon.svg" alt="Behance" />
+        <img src="./Assets/Bing Icon.svg" alt="Bing" />
+        <img src="./Assets/Bitbucket Icon.svg" alt="Bitbucket" />
+        <img src="./Assets//Dropbox Icon.svg" alt="Dropbox" />
+        <img src="./Assets/Twitch Icon.svg" alt="Twitch" />
+        <img src="./Assets/Twitter Icon.svg" alt="Twitter" />
+      </div>
+    </footer>
+  </body>
+</html>
